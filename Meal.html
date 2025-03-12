@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="mealfull">
+        
         <div id="searchbar">
             <form id="searchForm">
                 <input type="text" id="searchInput" placeholder="Enter Your Meal Details">
@@ -43,6 +44,7 @@
                           
                             card.innerHTML = `
                                 <h4>${query}</h4>
+                                <p>Serving:100gms</p>
                                 <p>Food: ${item.name}</p>
                                 <p>Protein: ${item.protein_g}g</p>
                                 <p>Calories: ${item.calories}</p>
